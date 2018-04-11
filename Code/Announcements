@@ -1,0 +1,83 @@
+<?php
+if(isset($_POST['sub']))
+{
+$ano=$_POST['area'];
+echo "$ano";
+include "conn.php";
+$data="insert into  tbl_announment values('','$ano')";
+  if(mysqli_query($con,$data))
+{
+echo "<script>alert(' Announcement inserted')</script>";
+echo "<script>location='alog.php';</script>";
+}
+else
+{
+echo "Sorry";
+}
+
+
+}
+?>
+<?php
+include "he.php";
+?>
+<html>
+<head>
+<style>
+#anou{
+width:350px;
+height:150px;
+background-color:#3AE2CE;
+border: soild blue;
+position:absolute;
+
+top:450px;
+left:400px;
+}
+</style>
+</head>
+<body>
+<div id="anou">
+<form method="post" action="">
+<table>
+<tr>
+<td>
+Announcement:&nbsp;
+<td>
+<?php
+@session_start();
+if(isset($_SESSION['txt1']))
+{
+$uname=$_SESSION['txt1'];
+//echo"$uname";
+}
+
+?>
+<textarea rows="5" cols="20" name="area">
+</textarea>
+</td>
+</tr> 
+<td></td>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" name="sub" value="Announcement">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<td><input type="reset" name="res" value="Cancel"></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
+</br></br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br></br>
+</br></br></br></br></br></br></br></br></br>
+
+
+<?php
+include "foo.php";
+?>
