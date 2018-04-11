@@ -1,0 +1,111 @@
+<?php
+@session_start();
+if(isset($_POST['sub']))
+{
+$fid=$_POST['tex'];
+$fname=$_POST['tx'];
+$status="pending";
+$uname=$_SESSION['txt1'];
+//echo "$uname";
+$filename = $_FILES['file']['name'];
+$target="uploads/";
+$target=$target.$_FILES['file']['name'];
+
+if(move_uploaded_file($_FILES['file']['tmp_name'],$target))
+
+echo "<script>alert('File is uploaded')</script>";
+
+else
+
+echo "File is not uploaded";
+include "conn.php";
+
+$sql="insert into tbl_upload values('','$fid','$fname','$filename','$status','$uname')";
+//echo "$sql";
+if(mysqli_query($con,$sql))
+
+echo "<script>alert(' Article inserted')</script>";
+
+else
+echo "File is not uploaded";
+
+
+}
+?>
+<?php
+include "he1.php";
+?>
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <center>
+	<form method="post" action=""  enctype="multipart/form-data">
+        <table>
+		<tr>
+<td>
+<?php
+@session_start();
+if(isset($_SESSION['txt1']))
+{
+$uname=$_SESSION['txt1'];
+}
+
+?>
+            <tr>
+                <td colspan="2"
+                    style="font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bold; color: #293955; text-decoration: underline; height: 30px;">Article Upload Details Form</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 5px"></td>
+            </tr>
+            <tr>
+                <td align="right" style="width: 152px">Article Name:</td>
+                <td align="left">
+                   <input type="text" name="tex" id="ter" >
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right" style="width: 152px">Article Description:</td>
+                <td align="left">
+                   <input type="text" name="tx" id="tep">
+
+                </td>
+            </tr>
+            <tr>
+                <td align="right" style="width: 152px">Upload Article:</td>
+                <td align="left">
+                    <input type="file" name="file" id="file">
+
+                </td>
+            </tr>
+          
+
+            <tr>
+                <td colspan="2" style="height: 35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;
+				<input type="submit" name="sub" value="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;
+				<input type="reset" name="res" value="clear"></td>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 35px">
+                    
+                </td>
+            </tr>
+        </table>
+		</form>
+    </center>
+	<br><br/>
+<?php
+include "foo.php";
+?>
+
+
+
