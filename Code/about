@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Design by http://www.bluewebtemplates.com
+Released for free under a Creative Commons Attribution 3.0 License
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Template</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!-- CuFon: Enables smooth pretty custom font rendering. 100% SEO friendly. To disable, remove this section -->
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/arial.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+<!-- CuFon ends -->
+</head>
+<body>
+<div class="main">
+
+  <div class="header">
+    <div class="header_resize">
+      <div class="menu_nav">
+                <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          
+          <li><a href="about.php">About Us</a></li>
+		 
+		  <li><a href="reg.php">Registration</a></li>
+		  <li><a href="admin.php">Admin</a></li>
+          <li><a href="user.php">User</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+   <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+      <div class="logo"><h1><a href="index.html">E-Learning<br /><small>Learning Management System</small></a></h1></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2><span>About to</span> Company Name</h2>
+          <p><strong>Founded in 2003, Werdermann eLearning Inc. was among the pioneers of the eLearning industry.  Over the years, members of the Werdermann eLearning team have had the honour to assist a stellar group of organizations from more than 15 different industries including  a variety of Canadian government entities and affiliates as well as U.S. and Canadian banks and financial institutions, retail chains, telecommunications companies, biotechnology and health providers, major players in food services, as well as post-secondary institutions and universities, to name just a few.</strong></p>
+          
+        </div>
+        <div class="article">
+          <h2><span>Our</span> Mission</h2>
+          <p><strong>To work dedicatedly towards building an innovative and quality conscious global organisation encompassing the interests of customers, instilling values in employees and return for stakeholders.</strong></p>
+          <p>Providing means to use technology in learning and teaching situations via offering self-learning pattern by employing multi-media to allow the learner be the center of the educational process and to create academic creative environment to achieve quality learning.</p>
+          <p>To help organizations achieve their business objectives by helping them train their employees, partners, and clients effectively, thus improving the performance of individuals and teams through our learning solutions.</p>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="gadget">
+          <h2 class="star"><span>Sidebar</span> Menu</h2>
+          <ul class="sb_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TemplateInfo</a></li>
+            <li><a href="#">Style Demo</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="http://www.dreamtemplate.com">Website Templates</a></li>
+          </ul>
+        </div>
+        <div class="gadget">
+          <h2 class="star"><span>Sponsors</span></h2>
+          <ul class="ex_menu">
+            <li><a href="http://www.dreamtemplate.com" title="Website Templates">DreamTemplate</a><br />Over 6,000+ Premium Web Templates</li>
+            <li><a href="http://www.templatesold.com" title="WordPress Themes">TemplateSOLD</a><br />Premium WordPress &amp; Joomla Themes</li>
+            <li><a href="http://www.imhosted.com" title="Affordable Hosting">ImHosted.com</a><br />Affordable Web Hosting Provider</li>
+            <li><a href="http://www.dreamstock.com" title="Stock Photos">DreamStock</a><br />Download Amazing Stock Photos</li>
+            <li><a href="http://www.evrsoft.com" title="Website Builder">Evrsoft</a><br />Website Builder Software &amp; Tools</li>
+            <li><a href="http://www.myvectorstore.com" title="Stock Icons">MyVectorStore</a><br />Royalty Free Stock Icons</li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+        <h2>About</h2>
+        <img src="images/white.jpg" width="66" height="66" alt="pix" />
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. llorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum. <a href="#">Learn more...</a></p>
+      </div>
+      <div class="col c2">
+        <h2>Lorem Ipsum</h2>
+        <ul class="sb_menu">
+          <li><a href="#">consequat molestie</a></li>
+          <li><a href="#">sem justo</a></li>
+          <li><a href="#">semper</a></li>
+          <li><a href="#">magna sed purus</a></li>
+          <li><a href="#">tincidunt</a></li>
+        </ul>
+      </div>
+      <div class="col c3">
+        <h2>Contact</h2>
+        <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.</p>
+        <p><strong>Phone:</strong> +1234567<br />
+          <strong>Address:</strong> 123 TemplateAccess Rd<br />
+          <strong>E-mail:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright MyWebSite. Designed by Blue </p>
+      <ul class="fmenu">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
