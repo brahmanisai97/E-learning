@@ -1,0 +1,72 @@
+<?php
+include"h.php";
+?>
+    <style type="text/css">
+        .log input
+        {
+            border: 1px solid #999999;
+            padding: 8px; /*display: block;*/
+            font-size: 11px;
+            color: #666666;
+            border-width: thin;
+            border-style: groove;
+            width: 222px;
+        }
+    </style>
+    <center><br />
+	<form method="post" action="admin1.php">
+         <table >
+        <tr>
+            <td >
+                <img src="images/Learing3.jpg" 
+                    Width="350px" Height="375px" />
+            </td>
+           
+
+  <td>
+        <h3 style="margin-bottom: 5px;color:blue;">
+            	<label>Admin login</label></h3>
+        <div class="log">
+            <table>
+                <tr>
+                    <td align="left">
+                        <strong>User Name: </strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="txt1" id="user">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <strong>Password: </strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" name="pass" id="pass"></td>
+                </tr>
+                             
+                <tr>
+                    <td align="left">
+                        <button name="sub">Login</button> 
+                             
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <a href="reg.php"> Register Here</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+      </td>
+      </tr>
+      </table>
+    </center><br /><br /><br /><br />
+	</form>
+<?php
+include"foo.php";
+?>
